@@ -6,7 +6,6 @@ CREATE TABLE IF NOT EXISTS stg_transit (
 	route_name VARCHAR(100) NULL,
 	route_destination VARCHAR(100) NOT NULL,
 	time_period VARCHAR(20) NOT NULL,
-	day_type VARCHAR(20) NULL,
 	
 	early_stops INT NULL,
 	late_stops INT NULL,
